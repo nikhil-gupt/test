@@ -25,14 +25,14 @@
   </dependencies>
  <distributionManagement>
     <repository>
-      <id>deploy_release</id>
-      <name>deploy_release</name>
-      <url>http://192.168.32.30:8081/nexus/content/repositories/deploy_release/</url>
+      <id>devops_release</id>
+      <name>devops_release</name>
+      <url>http://192.168.32.30:8081/nexus/content/repositories/devops_release/</url>
     </repository>
     <snapshotRepository>
-      <id>deploy_snapshot</id>
-      <name>deploy_snapshot</name>
-      <url>http://192.168.32.30:8081/nexus/content/repositories/deploy_snapshot/</url>
+      <id>devops_snapshot</id>
+      <name>devops_snapshot</name>
+      <url>http://192.168.32.30:8081/nexus/content/repositories/devops_snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
 	
