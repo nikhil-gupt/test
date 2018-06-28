@@ -25,14 +25,14 @@
   </dependencies>
  <distributionManagement>
     <repository>
-      <id>devops_release</id>
-      <name>devops_release</name>
-      <url>http://localhost:8081/repository/devops_release/</url>
+      <id>devops-release</id>
+      <name>devops-release</name>
+      <url>http://localhost:8081/nexus/content/repositories/devops-release/</url>
     </repository>
     <snapshotRepository>
-      <id>devops_snapshot</id>
-      <name>devops_snapshot</name>
-      <url>http://localhost:8081/repository/devops_snapshot/</url>
+      <id>devops-snapshot</id>
+      <name>devops-snapshot</name>
+      <url>http://localhost:8081/nexus/content/repositories/devops-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
 	
