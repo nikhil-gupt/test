@@ -23,6 +23,9 @@
 		<version>2.5.6</version>
 	</dependency> 
   </dependencies>
+<profiles>
+<profile>
+     <id>spring_deployer</id>	
  <distributionManagement>
     <repository>
       <id>devops_release</id>
@@ -35,5 +38,9 @@
       <url>http://192.168.32.30:8081/nexus/content/repositories/devops_snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
+</profile>
+	
+	
+</profiles>	
 	
 </project>
