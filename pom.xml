@@ -25,7 +25,7 @@
   </dependencies>
 <profiles>
 <profile>
-     <id>devops_snapshot</id>	
+     
  <distributionManagement>
     <repository>
       <id>devops_release</id>
