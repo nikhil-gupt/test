@@ -25,7 +25,7 @@
   </dependencies>
 <profiles>
 <profile>
-     <id>spring_deployer</id>	
+     <id>devops_snapshot</id>	
  <distributionManagement>
     <repository>
       <id>devops_release</id>
